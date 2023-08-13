@@ -17,9 +17,9 @@ const user = {
 // Object.freeze(user)
 // console.log(user);
 
-// user.greeting = function(){
-//     console.log(`Hello ${this.name}`);
-// }
+user.greeting = function(){
+    console.log(`Hello ${this.name}`);
+}
 // console.log(user.greeting);
 // console.log(user);
 
@@ -39,13 +39,13 @@ const Data = {
 
 const obj1 = {a : "123",b : "456"}
 const obj2 = {c : "789",d : "101"}
-// const obj3 = Object.assign({},obj1,obj2)
-const obj3 = {...obj1,...obj2}
-// console.log(obj3);
-// console.log(Object.keys(obj1));
-// console.log(Object.values(obj1));
-// console.log(Object.entries(obj1));
-// console.log(obj1.hasOwnProperty("a"));
+const obj3 = Object.assign({},obj1,obj2)
+// const obj3 = {...obj1,...obj2}
+console.log(obj3);
+console.log(Object.keys(obj1));
+console.log(Object.values(obj1));
+console.log(Object.entries(obj1));
+console.log(obj1.hasOwnProperty("a"));
 
 const Course = {
     CoursrName : "JavaScript",

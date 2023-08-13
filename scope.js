@@ -1,17 +1,17 @@
-// let a = 10;
-// var b = 420;
-// const c = 30;
+let a = 10;
+var b = 420;
+const c = 30;
 
-// if (true) {
-//   let a = 10;
-//   var b = 20;
-//   const c = 30;
+if (true) {
+  let a = 70;
+  var b = 20;
+  const c = 40;
 //   console.log("BLOCK SCOPE : ",a);
 // console.log("BLOCK SCOPE : ",b);
 // console.log("BLOCK SCOPE : ",c);
 
 
-// }
+}
 
 // console.log("GLOBAL SCOPE : ",a);
 // console.log("GLOBAL SCOPE : ",b);

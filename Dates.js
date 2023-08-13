@@ -19,7 +19,7 @@ let myNewDate2 = new Date("2023-5-23")
 // console.log(myNewDate2);
 
 let Dates = Date.now()
-// console.log(Dates)
+console.log(Dates)
 // console.log(myNewDate2.getTime())
 
 // `${Dates.getTime()}`

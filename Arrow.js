@@ -39,7 +39,7 @@ function one(){
 
 // console.log(addTwoNum(2,5))
 
-(function chaia(user){
+(function chai(user){
     console.log(`DB CONNECTED TO SERVER ${user}`);
 })('Aman');
 

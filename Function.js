@@ -15,7 +15,7 @@ function username(name){
     return `${name} just Logged In`
 }
 
-// console.log(username("aa"));
+console.log(username("aa"));
 
 function CalculateCartPrice(...num1){
     return num1
@@ -37,7 +37,7 @@ function handleobject(anyobject){
 const arr = [200,300,400,500]
 
 function secArr(getArray) {
-    return getArray[1]
+    return getArray[3]
 }
 
 // console.log(secArr(arr));
