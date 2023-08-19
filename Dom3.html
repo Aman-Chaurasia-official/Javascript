@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+
+    <ul class="Language">
+        <li>JavaScript</li>
+    </ul>
+    <h1 class="att">
+
+    </h1>
+
+</body>
+<script>
+    function add(lang) {
+        const li = document.createElement('li')
+        li.innerHTML = `${lang}`
+        document.querySelector('.Language').appendChild(li)
+    }
+    add("python")
+
+    function AddOpti(lang) {
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(lang))
+        document.querySelector('.Language').appendChild(li)
+    }
+    AddOpti('Java')
+
+
+        const seclang = document.querySelector('li:nth-child(2)')
+        const newli = document.createElement('li')
+        newli.textContent = "C++"
+        seclang.replaceWith(newli)    
+        
+        const firstlang = document.querySelector("li:first-child")
+        firstlang.outerHTML = '<li>Aman</li>'
+
+        const a = document.queryselector('li:last-child')
+        a.remove()
+</script>
+</body>
+</html>
