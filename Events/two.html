@@ -13,5 +13,23 @@
       distinctio fugit magnam sed odit reprehenderit quia facere quae veritatis.
     </p>
   </body>
-  <script></script>
+  <script>
+
+    const changeText = function(){
+      document.querySelector('h1').innerHTML = 'Atul Chaurasia';
+      console.log("Printed");
+    }
+
+    const Aman = function(){
+      console.log("print successfully");
+    }
+
+    const changeMe = setTimeout(changeText,2000)
+
+    document.querySelector('#stop').addEventListener('click',function(){
+      clearTimeout(changeMe)
+      console.log("Stopped");
+    })
+
+  </script>
 </html>
